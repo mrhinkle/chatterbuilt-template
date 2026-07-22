@@ -11,6 +11,8 @@ These are free for typical small-business traffic:
 | **Vercel (Hobby plan)** | Hosting, HTTPS, and deploys. Covers most small-business sites. |
 | **GitHub** | Repo storage, PRs, and version history. Free for private and public repos at this scale. |
 | **Umami analytics** | Private site stats on a free Postgres tier (when you self-host or use a free managed Postgres). |
+| **Instant-answers chatbot** | Built-in keyword search over `content/kb.json` — client-side, **$0**, no API key. |
+| **Admin panel (`/admin`)** | Edit integration IDs and KB entries; free. Optional GitHub commit needs a free fine-grained token. |
 
 No credit card is required to host and preview this template on the free tiers above.
 
@@ -22,8 +24,11 @@ No credit card is required to host and preview this template on the free tiers a
 | **Resend (contact form email)** | After you leave the free allowance | Free up to **3,000 emails/month**; paid plans only if you send more |
 | **Vercel** | Only if traffic or features outgrow the Hobby plan | Paid plans start when you upgrade; not required to go live |
 | **Image tooling** | Optional AI or stock-image tools you (or an agent) enable for photos/graphics | Only if you turn them on; not part of default hosting |
+| **AI-enhanced chatbot** | Only if you set `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` **and** a visitor turns on AI mode in the widget | **Your** provider bill (BYO key). Default keyword mode stays free. Leave keys unset to keep cost at $0. |
 
 Everything else in this template starts on free tiers. A custom domain is the usual first real expense.
+
+Some of the links above may be affiliate links — if you sign up through them we may earn a small commission at no extra cost to you; we still recommend whichever option is cheapest and best for you.
 
 ## How to cap spend
 

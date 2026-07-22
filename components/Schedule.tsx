@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { formatPhoneDisplay, site } from "@/content/site";
+import { integrations } from "@/lib/integrations";
 
 type ScheduleProps = {
   /** Unique id for section landmarks when used on multiple pages */
@@ -7,7 +8,10 @@ type ScheduleProps = {
 };
 
 export function Schedule({ id = "schedule" }: ScheduleProps) {
-  const hasEmbed = Boolean(site.schedulingUrl?.trim());
+  // Prefer integrations.json (admin-editable); fall back to site.schedulingUrl
+  const schedulingUrl =
+    integrations.calendlyUrl?.trim() || site.schedulingUrl?.trim() || "";
+  const hasEmbed = Boolean(schedulingUrl);
 
   return (
     <section
@@ -27,7 +31,7 @@ export function Schedule({ id = "schedule" }: ScheduleProps) {
         {hasEmbed ? (
           <div className="overflow-hidden rounded-md border border-border bg-panel">
             <iframe
-              src={site.schedulingUrl}
+              src={schedulingUrl}
               title="Schedule an appointment"
               className="w-full border-0 bg-panel"
               style={{ minHeight: 700 }}

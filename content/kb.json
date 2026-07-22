@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "services",
+      "question": "What kinds of jobs do you take?",
+      "answer": "Home repairs, remodel punch lists and finish work, and outdoor maintenance that a licensed handyman crew can handle safely. If a job needs a specialist trade (major electrical, HVAC, structural), we will tell you up front rather than stretch past our scope."
+    },
+    {
+      "id": "pricing",
+      "question": "How do you price work / get a quote?",
+      "answer": "Most jobs are quoted after a short on-site look so the scope is real. Small fixed-scope repairs may be quoted from photos when we have enough detail. You approve the quote before work starts. Call or text 614-555-0142 or use the contact form."
+    },
+    {
+      "id": "scheduling",
+      "question": "How soon can you schedule?",
+      "answer": "Typical lead time is about one to two weeks depending on the queue and job size. Urgent safety issues get prioritized when we can. We will give a clearer window when we confirm your visit."
+    },
+    {
+      "id": "licensed",
+      "question": "Are you licensed and insured?",
+      "answer": "Yes. We carry the insurance homeowners expect and work within our licensed scope. Ask for a certificate of insurance if your HOA or property manager needs one on file."
+    },
+    {
+      "id": "area",
+      "question": "What areas do you serve?",
+      "answer": "Columbus metro — including Westerville, Dublin, Grove City, and nearby neighborhoods. If you are just outside our usual radius, ask; some jobs still make sense."
+    },
+    {
+      "id": "occupied-homes",
+      "question": "Do you work in occupied homes?",
+      "answer": "Every day. We plan for dust, noise, and pets, protect floors when needed, and clean the work area before we leave. Let us know about access, alarms, or quiet hours when you book."
+    }
+  ]
+}
