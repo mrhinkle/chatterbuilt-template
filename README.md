@@ -8,7 +8,7 @@ Stack: **Next.js** (App Router) · **TypeScript** · **Tailwind CSS v4** · **Ve
 
 ## Example business
 
-The repo ships with a fully filled demo business: **Northgate Services** (home repairs / handyman, Columbus, OH). It builds and renders out of the box. Replace every field in `content/site.ts` with your customer’s details — or drop in output from the Chatterbuilt MCP `render_site_ts` tool.
+The repo ships with a fully filled demo business: **your business** (home repairs / handyman, Columbus, OH). It builds and renders out of the box. Replace every field in `content/site.ts` with your customer’s details — or drop in output from the Chatterbuilt MCP `render_site_ts` tool.
 
 ## Edit site content
 
@@ -118,7 +118,7 @@ This template is built so an AI coding agent (or you) can rebrand the whole site
 
 1. **Clone or “Use this template”** on GitHub, then open the project in your AI tool of choice.
 2. **Tell the AI who the business is**, for example:
-   - *“Replace Northgate Services with [Business Name], a [trade] in [City, State]. Update phone, address, three services, FAQ, reviews, and SEO titles. Keep the layout.”*
+   - *“Replace your business with [Business Name], a [trade] in [City, State]. Update phone, address, three services, FAQ, reviews, and SEO titles. Keep the layout.”*
 3. The agent should **only change `content/site.ts`** (and images under `public/` if you supply photos). Components already read from `site` — no prose rewrites in JSX.
 4. If you use the **Chatterbuilt MCP**, run the interview → `validate` → `render_site_ts` flow and drop the generated source into `content/site.ts`.
 5. **Run `npm run build`**, push a branch, open a PR for a Vercel preview, then merge to `main` for production.
