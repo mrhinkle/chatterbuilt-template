@@ -91,6 +91,10 @@ npm run lint    # ESLint
 - Open a **PR** for a preview URL before merging.
 - Set Resend env vars in the Vercel project settings for production email.
 
+## Spend guardrails
+
+What hosting costs, what’s free, and how to hard-cap spend: **[docs/SPEND-GUARDRAILS.md](./docs/SPEND-GUARDRAILS.md)**.
+
 ## Project structure
 
 ```
@@ -127,4 +131,4 @@ Rules for any agent editing this repo are in **[AGENTS.md](./AGENTS.md)**.
 
 ## AI / agent rules
 
-See **[AGENTS.md](./AGENTS.md)**: all copy in `content/site.ts`; components never hold business prose; run `npm run build` before pushing; `main` auto-deploys; preview via PR.
+See **[AGENTS.md](./AGENTS.md)**: all copy in `content/site.ts`; components never hold business prose; run `npm run build` before pushing; `main` auto-deploys; preview via PR. Spend caps: **[docs/SPEND-GUARDRAILS.md](./docs/SPEND-GUARDRAILS.md)**.

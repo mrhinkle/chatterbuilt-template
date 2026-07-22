@@ -43,3 +43,8 @@ This repo is the industry-neutral base template for Chatterbuilt business sites.
 - **`main` auto-deploys** on Vercel when the repo is connected.
 - Open a **PR** for a preview deployment; merge when ready for production.
 - One-click clone: use the Deploy button in `README.md`.
+
+## Spend guardrails
+
+- Owner-facing guide: **[docs/SPEND-GUARDRAILS.md](./docs/SPEND-GUARDRAILS.md)** (what’s free, what can cost money, how to cap spend).
+- agents must not enable paid services without stating the monthly cost and getting an explicit yes.
