@@ -1,0 +1,29 @@
+# Northgate Services
+
+> Home repairs, remodel touch-ups, and outdoor maintenance in Columbus, Ohio.
+
+## What we do
+Northgate Services is a licensed handyman and home-services crew: everyday home repairs, remodel finish work, and outdoor maintenance across the Columbus metro.
+
+## Tagline
+Reliable help. Clear communication.
+
+## Location
+1840 Northgate Dr
+Columbus, OH 43219
+United States
+
+Phone: 614-555-0142
+Instagram: https://www.instagram.com/northgateservices
+Website: https://www.northgateservices.example
+
+## Services
+1. Home Repairs — doors, drywall, fixtures, hardware, punch-list work
+2. Remodel Touch-Ups — trim, paint touch-ups, hardware, finish details
+3. Outdoor & Maintenance — fences, gates, exterior hardware, seasonal prep
+
+## How to book
+Call or text 614-555-0142, use the contact form at https://www.northgateservices.example/contact, or email hello@northgateservices.example.
+
+## Area served
+Columbus metro, OH — including Westerville, Dublin, and Grove City
